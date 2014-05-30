@@ -1,0 +1,7 @@
+1. add a real fix to stop the jump to next page problem.
+2. add a method (similar to the event list) for listing grants, service, awards & misc. conference presentations. Similar to event list - change date & title field i.e. bold title on left, light grey date on right.
+3. add a function to auto bold author name.
+4. add function to color sidebar titles
+5. change coloring of section titles to alternating primes or fibonacci.
+
+
