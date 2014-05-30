@@ -1,0 +1,2 @@
+be sure to xelatex yourfile.tex then bibtext all the dgd#-bib.aux files
+

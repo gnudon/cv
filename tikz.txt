@@ -1,0 +1,13 @@
+dot2tex
+ktikz
+qtikz
+prerex
+vprerex
+libqtexengine-dev
+libqtexengine1
+sketch
+sketch-doc
+matlab2tikz
+texlive-pictures
+texlive-games
+texlive-latex-extra

@@ -1,0 +1,119 @@
+%!TEX TS-program = xelatex
+\documentclass[]{gnudon}
+\listfiles
+\addbibresource{gnudon.bib}
+
+%must run bbibtex on dgd1-blx files
+
+\begin{document}
+\header{don}{davis}
+       {computer science education specialist}
+
+
+% In the aside, each new line forces a line break
+\begin{aside}
+  \section{about}
+    san antonio, texas
+    ~
+    \href{mailto:dondavis@reglue.org}{dondavis@reglue.org}
+    \href{http://misterdavis.org}{http://misterdavis.org}
+    \href{http://utsa.academia.edu/DDavis}{academia edu://DDavis}
+    \href{https://www.linkedin.com/pub/don-davis/4/358/144}{linkedin://don-davis}
+  \section{languages}
+    english 
+    german
+    basic spanish
+  \section{programming}
+    Alice, Kodu, Scratch, IPRO
+    Regular Expressions
+    Python, R
+    SQL, Bash, HTML, NetLogo
+    JavaScript (including jQuery, D3), Ruby on Rails, embedded C, Java
+
+\end{aside}
+
+\section{interests}
+
+developing, designing, and researching environments and pedagogy to support underrepresented students' computer science identity and skills trajectories, relational frame theory, embodied cognition, behavioral economics, social network analysis, data mining, learning analytics
+
+\section{education}
+
+\begin{entrylist}
+  \entry
+    {2011 - \\*present}
+    {Ph.D. {\normalfont  {\emph{\small in progress, coursework complete}}}}
+    {University of Texas at San Antonio}
+    {Interdisciplinary Learning and Teaching\\{\emph{\small leveraging embodied cognition to support CS identity and skill trajectories}}}
+  \entry
+    {2011}
+    {M.Ed.}
+    {Texas State University}
+     {Educational Technolgy \\{\emph{\small cognate focus on English Language Learners}}}
+  \entry
+    {2002}
+    {B.A.} 
+    {University of Texas at Austin}
+    {English/German\\{\emph{\small minor:linguistics}}}
+  \entry
+    {1999/2000}
+    {\ \ \ \ \ \ - }
+    {Humboldt Universität zu Berlin}
+    {Computer Science and Older German Literature}
+
+\end{entrylist}
+
+\section{university employment history} \nopagebreak
+\nopagebreak
+\begin{entrylist}
+  \entry 
+    {08/2013 - \\present}
+    {University of Texas at San Antonio}
+    {University Teaching Fellow}
+    {\small Fall 2013 - {\emph{Teaching assistant multidisciplinary research seminar}} \\ Spring 2014 - {\emph{developed, piloted protocol for evaluating dept's online content}}}
+  \entry
+    {01/2013 - \\08/2013}
+    {Wisconsin Center for Education Research}
+    {Research project manager / assistant researcher}
+    {\emph{\small Funded by the Collaborative Research: Programming Standing Up (NSF) grant. identified and examined computational thinking/computer science learning progressions and collaborative learning processes using Educational Data Mining (EDM) and related learning analytics.}}
+  \entry
+    {08/2011 - \\12/2012}
+    {University of Texas at San Antonio}
+    {research assistant, student teacher supervisor, instructor}
+    {\small research assistant - {\emph{funded by the National Science Foundation Grants EEC-1025243 and EEC-0748186 to investigate facilitating computational thinking and computer science skills in novices}} \\ student teacher supervisor - {\emph{supervised student teachers in San Antonio area schools}} \\ instructor - {\emph{IDS 2012, ``Diversity in the Classroom''}}}
+\end{entrylist}
+\pagebreak
+\section{K12 employment history} \nopagebreak
+\begin{entrylist}
+  \entry
+    {08/2006 - \\05/2011}
+    {San Marcos High School}
+    {Newcomer/ESL Instructor, Campus ESL Facilitator, LPAC chair}
+    {\small\emph{taught content area English to recent immigrants, supported faculty with providing appropriate instruction for English learners, documented and tracked English Learner progress at the campus level}}
+  \entry
+    {08/2005 - \\05/2006}
+    {Granger Independent School District }
+    { 7th, 8th, and 11th Grade English Teacher}
+    {\small\emph{facilitated students' critical reading and composition skill development}}
+    \entry
+    {08/2002 - \\05/2005}
+    {\emph{The New School}, Berlin, Germany}
+    {English as a Foreign Language Teacher}
+    {\small\emph{developed and instructed a variety of English courses, e.g., English for beginners, advanced English for business purposes, etc.}}
+\end{entrylist}
+
+
+\section{journal articles}
+
+%\printbibsection{article}{articles in peer-reviewed journals}
+\begin{refsection}
+  \nocite{*}
+  \printbibliography[sorting=chronological, type=article, title={peer-reviewed journal articles}, heading=subbibliography]
+\end{refsection}
+
+\begin{refsection}
+  \nocite{*}
+  \printbibliography[sorting=chronological, type=inproceedings, title={international peer-reviewed conferences/proceedings}, heading=subbibliography]
+\end{refsection}
+
+
+\end{document}

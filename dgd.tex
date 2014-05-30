@@ -1,0 +1,254 @@
+%!TEX TS-program = xelatex
+\documentclass[hidelinks]{gnudon}
+\listfiles
+\addbibresource{gnudon.bib}
+\usepackage[backend=biber]{biblatex}
+%must run bbibtex on dgd1-blx files
+
+\usepackage{color}
+\usepackage{hyperref} 
+\hypersetup{
+colorlinks=false
+linkbordercolor=purple
+urlbordercolor={0 1 1}
+}
+
+
+\newcommand{\white}[1]{{\textcolor{white}{#1}}}
+
+
+\begin{document}
+\header{don}{davis}
+       {computer science education specialist}
+
+
+% In the aside, each new line forces a line break
+\begin{aside}
+  \section{{\color {orange} abo}ut}
+    san antonio, texas
+    ~
+    \href{mailto:dondavis@reglue.org}{dondavis@reglue.org}
+    \href{http://misterdavis.org}{misterdavis.org}
+    \href{http://utsa.academia.edu/DDavis}{academia edu://DDavis}
+    \href{https://www.linkedin.com/pub/don-davis/4/358/144}{linkedin://don-davis}
+  \section{{\color {purple} lang}uages}
+    english 
+    german
+    basic spanish
+  \section{{\color {red}prog}ramming}
+    Alice, Kodu, Scratch, IPRO
+    Regular Expressions
+    Python, R
+    SQL, Bash, HTML, NetLogo
+    JavaScript (including jQuery, D3), Ruby on Rails, embedded C, Java
+\end{aside}
+
+\section{interests}
+developing, designing, and researching environments and pedagogy to support underrepresented students' computer science identity and skills trajectories, relational frame theory, embodied cognition, behavioral economics, social network analysis, data mining, learning analytics
+\section{education}
+\begin{entrylist}
+  \entry
+    {2011 - \\*present}
+    {Ph.D. {\normalfont  {\emph{\small in progress, coursework complete}}}}
+    {University of Texas at San Antonio}
+    {Interdisciplinary Learning and Teaching\\{\emph{\small leveraging embodied cognition to support CS identity and skill trajectories}}}
+  \entry
+    {2011}
+    {M.Ed.}
+    {Texas State University}
+     {Educational Technolgy \\{\emph{\small cognate focus on English Language Learners}}}
+  \entry
+    {2002}
+    {B.A.} 
+    {University of Texas at Austin}
+    {English/German\\{\emph{\small minor:linguistics}}}
+  \entry
+    {1999/2000}
+    {\ \ \ \ \ \ - }
+    {Humboldt Universität zu Berlin}
+    {Computer Science and Older German Literature}
+\end{entrylist}
+
+\section{university employment history}
+\begin{entrylist}
+  \entry 
+    {08/2013 - \\present}
+    {University of Texas at San Antonio}
+    {University Teaching Fellow}
+    {\small Fall 2013 - {\emph{Teaching assistant multidisciplinary research seminar}} \\ Spring 2014 - {\emph{developed, piloted protocol for evaluating dept's online content}}}
+  \entry
+    {01/2013 - \\08/2013}
+    {Wisconsin Center for Education Research}
+    {Research project manager / assistant researcher}
+    {\emph{\small Funded by the Collaborative Research: Programming Standing Up (NSF) grant. identified computational thinking/computer science learning progressions and collaborative learning processes using Educational Data Mining (EDM) and learning analytics.}}
+  \entry
+    {08/2011 - \\12/2012}
+    {University of Texas at San Antonio}
+    {research assistant, student teacher supervisor, instructor}
+    {\small research assistant - {\emph{funded by the NSF to investigate facilitating computational thinking and computer science skills in novices}} \\ student teacher supervisor - {\emph{supervised student teachers in the San Antonio area}} \\ instructor - {\emph{IDS 2012, ``Diversity in the Classroom''}}}
+\end{entrylist}
+
+\section{K12 employment history}
+\begin{entrylist}
+  \entry
+    {08/2006 - \\05/2011}
+    {San Marcos High School}
+    {Newcomer/ESL Instructor, Campus ESL Facilitator, LPAC chair}
+    {\small\emph{taught content area English to recent immigrants, supported faculty with providing appropriate instruction for English learners, documented and tracked English Learner progress at the campus level}}
+\end{entrylist}
+\begin{entrylist}
+  \entry
+    {08/2005 - \\05/2006}
+    {Granger Independent School District }
+    { 7th, 8th, and 11th Grade English Teacher}
+    {\small\emph{facilitated students' critical reading and composition skill development}}
+    \entry
+    {08/2002 - \\05/2005}
+    {\emph{The New School}, Berlin, Germany}
+    {English as a Foreign Language Teacher}
+    {\small\emph{developed and instructed a variety of English courses, e.g., English for beginners, advanced English for business purposes, etc.}}
+  \end{entrylist}
+
+\begin{aside}
+  \section{{\color {orange} soc}ietal {\color {red} aff}iliations}
+{\small{10bitworks Makerspace
+    Alamo City Behavior Analysts (ACBA)
+    Association for Computing Machinery (SIGCSE, SIGCAS) 
+    Texas Computer Education Association (SOSSIG)
+    Association for the Advancement of Computing in Education (AACE)
+    Society for Information Technology and Teacher Education (SITE)
+    Texas Teachers of English to Speakers of Other Languages (TexTESOL)}}
+\end{aside}
+
+\section{journal articles}
+\printbibsection{article}{{\color {red}art}icles in peer-reviewed journals}
+%\begin{refsection}
+%  \nocite{*}
+%  \printbibliography[sorting=chronological, type=article, title={peer-reviewed journal articles}, heading=subbibliography]
+%\end{refsection}
+
+\begin{refsection}
+  \nocite{*}
+  \printbibliography[sorting=chronological, type=inproceedings, title={{\color {green}int}ernational peer-reviewed conference proceedings}, heading=subbibliography]
+ \end{refsection}
+\section{additional conference presentations}
+\begin{entrylist}
+ \entry
+    {2011}
+    {Learning in the GNU/Linux community}
+    {Texas Linux Fest}
+    %{}
+    {{\emph{\small{presented with Iffat Jabeen}}}}
+
+   \entry
+    {2010}
+    {Linux LTSP: Revitalize Old Hardware}
+    {TCEA State Conference}
+    {{\emph{\small{Texas Computer Education Association}}}}
+
+    \entry
+     {2010}
+     {Alice: Multimedia Storytelling the Easy Way}
+     {TCEA State Conference}
+      {{\emph{\small{trained educators on using Alice to illustrate narratives \\while introducing CS/CT concepts}}}}
+     \entry
+     {2010}
+     {Through the looking glass: Multimedia presentations with Alice}
+     {edTech10}
+     {{\emph{\small{edTech10: Becoming 21st Century Change Agents; Texas State University, San Marcos, Texas}}}}
+     \entry
+    {2008}
+    {iPods in the Newcomer classroom}
+    {TexTESOL}
+    {{\emph{\small{presented with Nicki Konecki and Rosa Aponte-Gonzalez}}}}    
+\end{entrylist}
+
+
+\section{grant writing experience}
+\begin{description}
+\item[$\cdot$]Co-author\textbf{*} of \textbf{Makescape}, interactive hybrid virtual informal learning environment to support engineering career trajectories for students underrepresented in STEM. {\emph{\small{Grant proposal for NSF (\textbf{\$591,528}) with Matthew Berland, Univ. of Wisconsin-Madison and Leilah Lyons, Univ. of Illinois at Chicago}}} [Accepted]
+\item[$\cdot$]Co-author\textbf{*} of \textbf{Mapping the Participation of Hispanic Students in Computer Science (MaPHiCS)}. {\emph{\small{Grant proposal for NSF (\$100,000) with Matthew Berland, Univ. of Wisconsin-Madison and Alex J. Bowers, Columbia University}}}
+\item[$\cdot$]PI for \textbf{The Freedom Toaster Project: Free and Open Source Software for All}. {\emph{\small{Made kiosk to distribute free and open source software in a high school. Grant funded by A+FCU. (\$1000; 2008)}}}
+\item[$\cdot$]PI for \textbf{Access for All}. {\emph{\small{provided internet access to a primarily Hispanic, recent immigrant community using a student made mesh network. Grant funded by A+FCU. (\$1000; 2007, renewed 2008)}}}
+
+\begin{aside}
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+{\textbf{*}\emph{\small{Graduate students cannot be Co-PIs on NSF funded grant proposals.}}}
+\end{aside}
+\end{description}
+\section{honors}
+\begin{description}
+\item[$\cdot$]Alpha Chi Honor Society, September 2010 – May 2011
+\item[$\cdot$]Golden Key International Honour Society, September 2010 – May 2011\item[$\cdot$]Dean's List. University of Texas at Austin, 2001, 2002
+\end{description}
+
+\section{appointments}
+\begin{description}
+\item[$\cdot$]Member, {\emph{San Marcos High School Campus Leadership Team}},October 2010 – May 2011
+\item[$\cdot$]Member, {\emph{Continuing Improvement Plan District Committee. San Marcos Consolidated Independent School District}},September 2010 – May 2011
+\item[$\cdot$]Chairperson, {\emph{Language Proficiency and Assessment Committee, San Marcos High School, San Marcos, Texas}},2008- 2011
+\end{description}
+
+\section{professional service activities}
+\begin{entrylist}
+\entry
+{2013,2014}
+{Event Volunteer}
+{Games and Learning Society (GLS) 9.0,10.0 Conference}
+{Madison, Wisconsin}
+
+\entry
+{2013,2014}
+{Guest Reviewer}
+{GLS 9.0, 10.0}
+{Madison, Wisconsin}
+
+\entry
+{2011}
+{Technical Reviewer}
+{The Alice 3 Cookbook}
+%{{\emph{The Alice 3 Cookbook}}
+{Birmingham, UK; Packt Publishing}
+\end{entrylist}
+
+\begin{aside}
+\section{{\color {red}int}ernational {\color {orange}tra}vel}
+Berlin, Germany {\emph{7 years}}
+\end{aside}
+\section{volunteer work}
+\begin{description}
+\item[$\cdot$] {\emph{Un}}conference organizer for OpenEdJAM (December 2013 – Present)
+\item[$\cdot$]Technologist for Alamo City Behavior Analysts (July 2013 – Present)
+\item[$\cdot$]Mentor. Beacon Hill Elementary, San Antonio, Texas. (2013)
+\item[$\cdot$]Science fair judge. Science Hall Elementary, Buda, Texas. (2012).
+\item[$\cdot$]Hispanic Heritage Month Committee Member (2008, 2009) / Lead (2007, 2010), San Marcos High School, San Marcos, Texas. (2007 – 2011)
+\item[$\cdot$]Linux Against Poverty  - Repair team member (August, 2009); Install Team Lead (June 2010)
+\item[$\cdot$]reglue.org (501c3) - Founder (2007), Board member (January 2007 – August 2010)
+\item[$\cdot$]San Marcos High School Linux Users Group Sponsor (September 2010 – May 2011)
+\item[$\cdot$]Hispanic Heritage Month Student Club Sponsor (September 15 -  October 15, 2007)
+\item[$\cdot$]WEP club (Wireless Education Project) Faculty Sponsor (August 2007 – May 2009)
+\item[$\cdot$]Provided Lesson Plan Generator to Faculty of San Marcos High School (November 2007)
+\end{description}
+
+
+\footer{don}{davis}
+       {\emph{misterdavis.org}}
+
+
+\end{document}
